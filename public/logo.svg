@@ -1,0 +1,20 @@
+<svg width="240" height="40" viewBox="0 0 240 40" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="InboxAgent.ai">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#10B981"/>
+<stop offset="100%" stop-color="#38BDF8"/>
+</linearGradient>
+</defs>
+<!-- Icon: envelope + house -->
+<g transform="translate(2,4)">
+<rect x="0" y="0" width="48" height="32" rx="6" fill="url(#g)" />
+<path d="M4 6l20 12c2 1.2 4 1.2 6 0l20-12" fill="none" stroke="white" stroke-width="2"/>
+<path d="M24 10l6 5v7h-4v-5h-4v5h-4v-7z" fill="white" opacity="0.95"/>
+</g>
+<!-- Wordmark -->
+<g transform="translate(58,27)" fill="#0F172A">
+<text x="0" y="0" font-size="20" font-family="Inter, Arial, sans-serif" font-weight="800" letter-spacing="-0.5">Inbox</text>
+<text x="70" y="0" font-size="20" font-family="Inter, Arial, sans-serif" font-weight="800" letter-spacing="-0.5" fill="#10B981">Agent</text>
+<text x="144" y="0" font-size="16" font-family="Inter, Arial, sans-serif" font-weight="700" fill="#64748B">.ai</text>
+</g>
+</svg>

@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    --primary: 160 84% 39%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 20% 96%;
+    --secondary-foreground: 222 47% 11%;
+
+    --muted: 215 20% 65%;
+    --muted-foreground: 215 16% 47%;
+
+    --accent: 160 84% 39%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 70% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 160 84% 39%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 222 47% 11%;
+    --sidebar-primary: 160 84% 39%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 210 20% 96%;
+    --sidebar-accent-foreground: 222 47% 11%;
+    --sidebar-border: 214 32% 91%;
+    --sidebar-ring: 160 84% 39%;
+    
+    /* Brand colors */
+    --brand-emerald: 160 84% 39%;
+    --brand-sky: 199 93% 60%;
+    --brand-dark: 222 47% 11%;
+    --brand-light: 210 20% 98%;
+    
+    --gradient-primary: linear-gradient(135deg, hsl(160 84% 39%), hsl(199 93% 60%));
+    --shadow-soft: 0 4px 20px -4px hsl(160 84% 39% / 0.15);
+    
+    /* Hero section variables */
+    --hero-bg: linear-gradient(135deg, hsl(222 60% 8%) 0%, hsl(222 64% 11%) 60%, hsl(222 60% 8%) 100%);
+    --hero-text: 160 70% 92%;
+    --hero-muted: 215 20% 75%;
+    
+    /* Apple-style shadows and effects */
+    --shadow-float: 0 8px 30px rgba(0, 0, 0, 0.12);
+    --shadow-float-lg: 0 20px 60px rgba(0, 0, 0, 0.15);
+    --shadow-float-xl: 0 30px 80px rgba(0, 0, 0, 0.2);
+    --glass-bg: rgba(255, 255, 255, 0.05);
+    --glass-border: rgba(255, 255, 255, 0.1);
+  }
+
+  /* Apple-style dark mode shadows */
+  --shadow-float-dark: 0 8px 30px rgba(0, 0, 0, 0.4);
+  --shadow-float-lg-dark: 0 20px 60px rgba(0, 0, 0, 0.5);
+
+  .dark {
+    --background: 230 30% 12%;
+    --foreground: 220 25% 95%;
+
+    --card: 230 25% 16%;
+    --card-foreground: 220 25% 95%;
+
+    --popover: 230 25% 16%;
+    --popover-foreground: 220 25% 95%;
+
+    --primary: 230 50% 55%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 160 45% 50%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 230 20% 22%;
+    --muted-foreground: 220 20% 65%;
+
+    --accent: 160 45% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 70% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 230 20% 25%;
+    --input: 230 20% 25%;
+    --ring: 230 50% 55%;
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+    
+    --gradient-zen: linear-gradient(135deg, hsl(230 50% 55%), hsl(160 45% 50%));
+    --shadow-soft: 0 4px 20px -4px hsl(230 50% 55% / 0.25);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  }
+}

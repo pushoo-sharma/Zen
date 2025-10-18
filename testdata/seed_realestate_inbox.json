@@ -1,0 +1,152 @@
+[
+  {
+    "id": "msg-001",
+    "subject": "Offer Received – 1420 Maple Ave",
+    "body": "Attached is the signed offer for 1420 Maple Ave. Buyer requests a 21-day close. The offer is $485,000 with standard contingencies for inspection and appraisal. Earnest money deposit of $10,000 to be wired within 48 hours.",
+    "from": "buyeragent@homes.com",
+    "to": ["you@realtygroup.com"],
+    "participants": ["buyeragent@homes.com", "you@realtygroup.com"],
+    "date": "2025-10-13T10:30:00Z",
+    "threadId": "thread-maple-001",
+    "attachments": [
+      { 
+        "id": "1", 
+        "filename": "Offer_1420_MapleAve.pdf", 
+        "mimeType": "application/pdf", 
+        "size": 102400 
+      }
+    ]
+  },
+  {
+    "id": "msg-002",
+    "subject": "Schedule showing – 88 Ocean Blvd",
+    "body": "Hi! I'm very interested in the listing at 88 Ocean Blvd. Can we view the property on Thursday at 2 PM? I'm pre-approved for up to $550k. Looking forward to hearing from you!",
+    "from": "client.john@gmail.com",
+    "to": ["you@realtygroup.com"],
+    "participants": ["client.john@gmail.com", "you@realtygroup.com"],
+    "date": "2025-10-13T09:15:00Z",
+    "threadId": "thread-ocean-001"
+  },
+  {
+    "id": "msg-003",
+    "subject": "Inspection report – 420 Hillside Dr",
+    "body": "Find attached the inspection summary and termite clearance for Hillside property. Overall the home is in good condition with minor issues noted in the report. Roof has approximately 5-7 years remaining life. HVAC system recently serviced and operating normally.",
+    "from": "inspector@reinspectors.com",
+    "to": ["you@realtygroup.com"],
+    "participants": ["inspector@reinspectors.com", "you@realtygroup.com"],
+    "date": "2025-10-13T14:20:00Z",
+    "threadId": "thread-hillside-001",
+    "attachments": [
+      { 
+        "id": "2", 
+        "filename": "Hillside_Termite.pdf", 
+        "mimeType": "application/pdf", 
+        "size": 204800 
+      },
+      { 
+        "id": "3", 
+        "filename": "Hillside_Photo1.jpg", 
+        "mimeType": "image/jpeg", 
+        "size": 512000 
+      }
+    ]
+  },
+  {
+    "id": "msg-004",
+    "subject": "RE: Counter offer on 789 Pine Street",
+    "body": "Our client has reviewed your counter offer. They're willing to meet at $425,000 but request the seller include the washer/dryer and refrigerator. This offer expires tomorrow at 5 PM. Please advise ASAP.",
+    "from": "listing.agent@century21.com",
+    "to": ["you@realtygroup.com"],
+    "participants": ["listing.agent@century21.com", "you@realtygroup.com"],
+    "date": "2025-10-13T16:45:00Z",
+    "threadId": "thread-pine-001"
+  },
+  {
+    "id": "msg-005",
+    "subject": "Appraisal scheduled – 1420 Maple Ave",
+    "body": "The appraisal for 1420 Maple Ave has been scheduled for Monday, October 16th at 10:00 AM. The appraiser will need access to all areas of the property including garage, attic, and crawl space. Estimated completion time is 2 hours.",
+    "from": "appraisal@valuepros.com",
+    "to": ["you@realtygroup.com"],
+    "participants": ["appraisal@valuepros.com", "you@realtygroup.com"],
+    "date": "2025-10-13T11:00:00Z",
+    "threadId": "thread-maple-002"
+  },
+  {
+    "id": "msg-006",
+    "subject": "Escrow documents ready – 555 Sunset Drive",
+    "body": "All escrow documents are prepared and ready for signature. Wire instructions for earnest money deposit are attached. Closing date confirmed for October 25th at 2:00 PM at our title office.",
+    "from": "escrow@securetitle.com",
+    "to": ["you@realtygroup.com"],
+    "participants": ["escrow@securetitle.com", "you@realtygroup.com"],
+    "date": "2025-10-13T13:30:00Z",
+    "threadId": "thread-sunset-001",
+    "attachments": [
+      { 
+        "id": "4", 
+        "filename": "Wire_Instructions.pdf", 
+        "mimeType": "application/pdf", 
+        "size": 51200 
+      }
+    ]
+  },
+  {
+    "id": "msg-007",
+    "subject": "Open House this weekend?",
+    "body": "Is the property at 88 Ocean Blvd available for viewing? Are you doing an open house this weekend?",
+    "from": "prospective.buyer@yahoo.com",
+    "to": ["you@realtygroup.com"],
+    "participants": ["prospective.buyer@yahoo.com", "you@realtygroup.com"],
+    "date": "2025-10-13T08:20:00Z",
+    "threadId": "thread-ocean-002"
+  },
+  {
+    "id": "msg-008",
+    "subject": "Photography for new listing",
+    "body": "I have availability next Tuesday or Wednesday for the property photos. Please let me know which day works better and the property address. I'll plan for a 2-hour shoot including drone footage.",
+    "from": "photos@propertypics.com",
+    "to": ["you@realtygroup.com"],
+    "participants": ["photos@propertypics.com", "you@realtygroup.com"],
+    "date": "2025-10-13T12:00:00Z",
+    "threadId": "thread-vendor-001"
+  },
+  {
+    "id": "msg-009",
+    "subject": "Monthly Market Report - October 2025",
+    "body": "View the latest market trends and statistics for your area. Average days on market: 28. Median sale price: $475,000. Click here to unsubscribe from future updates.",
+    "from": "newsletter@realestatenews.com",
+    "to": ["you@realtygroup.com"],
+    "participants": ["newsletter@realestatenews.com", "you@realtygroup.com"],
+    "date": "2025-10-13T06:00:00Z",
+    "threadId": "thread-marketing-001"
+  },
+  {
+    "id": "msg-010",
+    "subject": "HOA disclosure needed – 420 Hillside Dr",
+    "body": "The buyer's lender is requesting HOA documents and disclosure package for 420 Hillside Drive. Can you obtain these from the HOA? They need them by Friday for loan approval.",
+    "from": "lender@mortgageplus.com",
+    "to": ["you@realtygroup.com"],
+    "participants": ["lender@mortgageplus.com", "you@realtygroup.com"],
+    "date": "2025-10-13T15:10:00Z",
+    "threadId": "thread-hillside-002"
+  },
+  {
+    "id": "msg-011",
+    "subject": "URGENT: Inspection contingency expires today",
+    "body": "This is a reminder that the inspection contingency for 789 Pine Street expires today at 5:00 PM. Please confirm the buyer's decision to proceed or request repairs ASAP.",
+    "from": "transaction@coordinateplus.com",
+    "to": ["you@realtygroup.com"],
+    "participants": ["transaction@coordinateplus.com", "you@realtygroup.com"],
+    "date": "2025-10-13T14:00:00Z",
+    "threadId": "thread-pine-002"
+  },
+  {
+    "id": "msg-012",
+    "subject": "RE: Is 1420 Maple Ave still available?",
+    "body": "I noticed the listing on Zillow. Is it still available? I'm interested in scheduling a showing next week. I'm a cash buyer looking to close quickly.",
+    "from": "cash.buyer@outlook.com",
+    "to": ["you@realtygroup.com"],
+    "participants": ["cash.buyer@outlook.com", "you@realtygroup.com"],
+    "date": "2025-10-13T10:00:00Z",
+    "threadId": "thread-maple-003"
+  }
+]

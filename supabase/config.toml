@@ -1,0 +1,124 @@
+project_id = "kwuxuzgjsrfazudnqeya"
+
+[functions.create-checkout]
+verify_jwt = true
+
+[functions.check-subscription]
+verify_jwt = true
+
+[functions.customer-portal]
+verify_jwt = true
+
+[functions.auto-predict]
+verify_jwt = true
+
+[functions.auto-list]
+verify_jwt = true
+
+[functions.auto-agent]
+verify_jwt = false
+
+[functions.classify-emails]
+verify_jwt = true
+
+[functions.generate-draft]
+verify_jwt = true
+
+[functions.oauth-gmail-callback]
+verify_jwt = false
+
+[functions.fetch-gmail-emails]
+verify_jwt = true
+
+[functions.build-voice-profile]
+verify_jwt = true
+
+[functions.send-email]
+verify_jwt = true
+
+[functions.schedule-email]
+verify_jwt = true
+
+[functions.analytics]
+verify_jwt = true
+
+[functions.recommendations]
+verify_jwt = true
+
+[functions.feedback]
+verify_jwt = true
+
+[functions.fetch-threads]
+verify_jwt = true
+
+[functions.learn-preferences]
+verify_jwt = false
+
+[functions.reset-learning]
+verify_jwt = true
+
+[functions.companion]
+verify_jwt = true
+
+[functions.memory-summarize]
+verify_jwt = true
+
+[functions.memory-context]
+verify_jwt = true
+
+[functions.memory-prefs]
+verify_jwt = true
+
+[functions.memory-export]
+verify_jwt = true
+
+[functions.team-aggregate]
+verify_jwt = false
+
+[functions.team-insights]
+verify_jwt = true
+
+[functions.team-join]
+verify_jwt = true
+
+[functions.orchestrate]
+verify_jwt = true
+
+[functions.coordinate]
+verify_jwt = true
+
+[functions.traces]
+verify_jwt = true
+
+[functions.update-team-settings]
+verify_jwt = true
+
+[functions.google-oauth-config]
+verify_jwt = false
+
+[functions.create-checkout]
+verify_jwt = true
+
+[functions.check-subscription]
+verify_jwt = true
+
+[functions.customer-portal]
+verify_jwt = true
+
+[functions.onboarding-status]
+verify_jwt = true
+
+[functions.audit-log]
+verify_jwt = true
+
+[functions.delete-user-data]
+verify_jwt = true
+
+[functions.health]
+verify_jwt = false
+
+[functions.beta-signup]
+verify_jwt = false
+
+[functions.track-beta-metric]
+verify_jwt = true
